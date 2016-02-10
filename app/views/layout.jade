@@ -1,0 +1,14 @@
+doctype
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+html(lang='en')
+  head
+    include layout/head.jade
+  
+  body
+    block content
+  
+  block scripts
+    script(src='/assets/dist/index.js')
+
+  footer
+    include layout/footer.jade
