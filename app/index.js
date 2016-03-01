@@ -6,7 +6,6 @@ app.set('port', 1337-1);
 app.set('views', __dirname + '/views')
 app.set('view engine', 'jade');
 
-// static files (cache for 30 days in production)
 app.use('/assets', express.static(__dirname + '/assets'))
 
 // Require routes
