@@ -12,7 +12,8 @@ app.use('/assets', express.static(__dirname + '/assets'))
 mongoose.connect('mongodb://localhost/test', function(err) {
   if (err)
     console.log(err + "\nThe development Mongo Server is not running. Run '$ mongod' in the terminal.")
-    process.exit()
+  else
+    console.log('Connected to MongoDB')
 })
 
 require('./routes')(app)
