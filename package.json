@@ -1,6 +1,6 @@
 {
   "name": "express-skeleton",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A node.js & express skeleton.",
   "main": "index.js",
   "scripts": {
