@@ -1,5 +1,7 @@
 module.exports = function (app) {
   app.get('/', function (req, res) {
-    res.render('pages/index')
+    res.render('pages/index', {
+      title: 'Express Skeleton'
+    })
   })
 }
