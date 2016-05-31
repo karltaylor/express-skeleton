@@ -9,13 +9,6 @@ app.set('view engine', 'jade')
 
 app.use('/assets', express.static(__dirname + '/assets'))
 
-mongoose.connect('mongodb://localhost/test', function(err) {
-  if (err)
-    console.log(err + "\nThe development Mongo Server is not running. Run '$ mongod' in the terminal.")
-  else
-    console.log('Connected to MongoDB')
-})
-
 require('./routes')(app)
 
 app.listen(app.get('port'), function () {

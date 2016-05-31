@@ -1,8 +1,7 @@
-# Express Skeleton with MongoDB
+# Express Skeleton with Bootstrap
 
 A simple barebones Express skeleton - with MongoDB
 
-1. Run `mongod`
 2. Run `npm start`
 3. Run `gulp dev`
 =======
@@ -11,9 +10,9 @@ A simple barebones Express skeleton - with MongoDB
 
 ## Includes
 
+- Bootstrap
 - Gulp
 - Autoprefixer
 - Jade/Pug
 - Babel
 - Browserify
-- MongoDB
