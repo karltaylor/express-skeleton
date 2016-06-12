@@ -4,8 +4,8 @@
   "description": "A node.js & express skeleton with Bootstrap.",
   "main": "index.js",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/karltaylor/express-skeleton"
+    "type": "git",
+    "url": "https://github.com/karltaylor/express-skeleton"
   },
   "scripts": {
     "start": "npm i && node app/index.js",
@@ -19,6 +19,7 @@
     "express": "^4.13.3",
     "gulp-autoprefixer": "^3.1.0",
     "jade": "^1.11.0",
+    "mongoose": "^4.4.20",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
