@@ -3,7 +3,6 @@
 A simple barebones Express skeleton - with MongoDB
 
 ## Contents
-___
 
 1. Installation / Requirements
 2. Run
