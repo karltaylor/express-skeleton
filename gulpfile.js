@@ -24,7 +24,7 @@ gulp.task('css', function () {
 
 gulp.task('js', function () {
   return browserify('app/assets/js/index.js', { debug: true })
-    .transform('babelify', {presets: 'es2015'})
+    .transform('babelify', {presets: ['es2015', 'react']})
     .bundle()
     .pipe(source('index.js'))
     .pipe(buffer())
@@ -32,7 +32,7 @@ gulp.task('js', function () {
     .pipe(reload({stream: true}))
 })
 
-gulp.task('dev', ['css'], function () {
+gulp.task('dev', ['css', 'js'], function () {
   browserSync.init({
     proxy: 'localhost:1336',
     port: 1337,
