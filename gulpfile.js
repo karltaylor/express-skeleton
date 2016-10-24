@@ -32,7 +32,7 @@ gulp.task('js', function () {
     .pipe(reload({stream: true}))
 })
 
-gulp.task('dev', ['css'], function () {
+gulp.task('dev', ['css', 'js'], function () {
   browserSync.init({
     proxy: 'localhost:1336',
     port: 1337,
