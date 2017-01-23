@@ -1,6 +1,9 @@
-# Express Skeleton with Bootstrap
+# express-gulp-browserify-pug-stylus-boilerplate
 
-A simple barebones Express skeleton - with Bootstrap
+Master branch contains the basics. Current variations include
+
+- [React](https://github.com/karltaylor/express-skeleton/tree/react)
+- [MongoDB](https://github.com/karltaylor/express-skeleton/tree/mongodb)
 
 1. Run `npm start`
 2. Run `gulp dev`
@@ -13,3 +16,7 @@ A simple barebones Express skeleton - with Bootstrap
 - Jade/Pug
 - Babel
 - Browserify
+
+## License
+
+MIT
