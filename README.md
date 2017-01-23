@@ -5,8 +5,27 @@ Master branch contains the basics. Current variations include
 - [React](https://github.com/karltaylor/express-skeleton/tree/react)
 - [MongoDB](https://github.com/karltaylor/express-skeleton/tree/mongodb)
 
-1. Run `npm start`
-2. Run `gulp dev`
+## Setup
+
+```
+$ npm i / yarn install
+```
+In another terminal window start MongoDB locally
+```
+$ mongod
+```
+
+## Running
+
+To start the node server
+```
+$ npm start
+```
+
+To run the build process and watch for changes.
+```
+$ gulp dev
+```
 
 ## Includes
 
